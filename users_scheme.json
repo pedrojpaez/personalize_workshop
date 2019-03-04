@@ -1,0 +1,29 @@
+{
+	"type": "record",
+	"name": "Users",
+	"namespace": "com.amazonaws.personalize.schema",
+	"fields": [
+		{
+			"name": "USER_ID",
+			"type": "string"
+		},
+		{
+			"name": "AGE",
+			"type": "int"
+		},
+		{
+			"name": "GENDER",
+			"type": "string",
+			"categorical": true
+		},
+		{
+			"name": "OCCUPATION",
+			"type": "string"
+		},
+		{
+			"name": "ZIP",
+			"type": "string"
+		}
+	],
+	"version": "1.0"
+}
